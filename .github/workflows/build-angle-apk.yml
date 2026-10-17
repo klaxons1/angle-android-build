@@ -96,7 +96,8 @@ jobs:
           cd "$ANGLE_ROOT"
           gn gen out/Android --args='
             target_os = "android"
-            target_cpu = "arm64"
+            target_cpu = "arm"
+            v8_target_cpu = "arm"
             is_component_build = false
             is_debug = false
             arm_control_flow_integrity = "none"
