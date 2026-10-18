@@ -113,7 +113,7 @@ jobs:
             dcheck_always_on = false
             angle_enable_trace = true
             angle_enable_trace_events = true
-            angle_enable_trace_android_logcat = trur
+            angle_enable_trace_android_logcat = true
             angle_enable_platform_trace_events = true
             angle_always_log_info = true
             angle_enable_annotator_run_time_checks = false
